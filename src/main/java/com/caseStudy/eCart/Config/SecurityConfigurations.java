@@ -51,9 +51,5 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter {
         return NoOpPasswordEncoder.getInstance();
     }
 
-   /* @Autowired
-    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication().withUser("hiteshmunjal22@gmail.com").password("{noop}password").roles("USER");
-    }
-*/
+ 
 }
